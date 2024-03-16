@@ -1,0 +1,38 @@
+userName: omjannu_8fjg91
+accessKey: yF8rXmW1yM7gGi67Kg6w
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: latest
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: latest
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Safari
+    realMobile: true
+  - deviceName: Samsung Galaxy S21
+    osVersion: 11.0
+    browserName: Chrome
+    realMobile: true
+browserstackLocal: true
+buildName: bstack-assignment-selenium
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Assignment Selenium
+debug: true
+networkLogs: true
+consoleLogs: info
