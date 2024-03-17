@@ -10,8 +10,7 @@ options.set_capability('sessionName', 'BStack Assignment Selenium')
 
 try:
     # Initialize WebDriver with options
-    # driver = webdriver.Chrome(options=options)
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=options)
     driver.maximize_window()
 
     # Load the homepage
@@ -38,7 +37,7 @@ try:
     driver.execute_script("arguments[0].scrollIntoView(true);", brand_filter)
     WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//div[@class="_3879cV" and text()="SAMSUNG"]')))
     driver.execute_script("arguments[0].click();", brand_filter)
-    print("Clicked Samsung filter\n")
+    print("Clicked Samsung filter\n") 
 
     # Sort by Price - High to Low
     sort_price_high_to_low = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '//div[@class="_10UF8M" and text()="Price -- High to Low"]')))

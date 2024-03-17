@@ -7,19 +7,15 @@ platforms:
     browserVersion: latest
   - os: Windows
     osVersion: 10
-    browserName: Firefox
-    browserVersion: latest
-  - os: Windows
-    osVersion: 10
     browserName: Edge
     browserVersion: latest
   - os: OS X
-    osVersion: Big Sur
-    browserName: Safari
+    osVersion: Ventura
+    browserName: Chrome
     browserVersion: latest
   - os: OS X
     osVersion: Monterey
-    browserName: Safari
+    browserName: Chrome
     browserVersion: latest
   - deviceName: iPhone 13
     osVersion: 15
